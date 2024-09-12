@@ -1,0 +1,148 @@
+.Home_body {
+   background-image: url("../assests/blob-haikei.png");
+   width: 100%;   
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 90vh;
+   
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    padding:60px 50px 20px 90px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.welcome button{
+    margin-right: 24%;
+    border: none;
+    padding: 1%;
+    border-radius: 20px;
+    background-color:  rgb(133, 133, 236);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.name{
+    padding-left:90px ;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.personal{
+    padding-left: 90px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.grid_elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    width: 100%;
+    max-width: 60%;
+    padding-left: 91px;
+    height: 25vh;
+    
+  }
+  .grid-item, .grid_item {
+    margin-top: 1%;
+    background-color: rgb(250, 250, 235);
+    border-radius: 15px;
+}
+.quick{
+   margin-left: 75%;
+   margin-top: 2%;
+   border-radius: 130px;
+   border: none;
+   padding: 10px;
+   background-color: rgb(133, 133, 236);
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
+.invest{
+    padding-left: 90px;
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+.USD,.JPY,.CAD{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.last_four,.bottom{
+    padding: 10px;
+}
+.other_details{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    background-color: rgb(166, 74, 252);
+    width: 20%;
+    height: 37vw;
+    position: absolute;
+    top: 18%;
+    right: 20px;
+    border: none;
+    border-radius: 30px;
+}
+.rewards{
+    padding-left: 30%;
+    padding-top: 10%;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+}
+.rewards img{
+ position: relative;
+ right: 31%;
+}
+.rewards .pref{
+    position: absolute;
+    top: 5%;
+}
+.rewards .view{
+    padding: 4%;
+    width: 100%;
+    position: relative;
+    right: 22%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.platinum{
+    padding-top: 10px;
+    font-size: 1rem;
+}
+span{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.spending{
+    padding-left: 30%;
+    padding-top: 10%;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+}
+.spending img{
+    position:relative;
+    right: 31%;
+}
+.spending .spend{
+    position: absolute;
+    top: 39%;
+}
+.track{
+   position: absolute;
+   top: 55%;
+   right: 35%;
+   padding: 3%;
+   width: 50%;
+   border: none;
+   border-radius: 20px;
+   font-size: 1rem;
+   cursor:pointer;
+}
